@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Mage4
+ * @package    Mage4_GiftCard
+ * @copyright  All rights reserved
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Sales\Model\RefundInvoice" type="Mage4\GiftCard\Model\RefundInvoice" />
+</config>
